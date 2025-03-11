@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrapify/src/pages/login.dart';
 
 
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       
-      home: ForgetPasswordPage()
+      home:LoginPage()
       );
     }
 }
